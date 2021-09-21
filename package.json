@@ -1,0 +1,27 @@
+{
+  "name": "electron-seamless-titlebar-tutorial",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "npm rebuild --runtime=electron --target=14.0.1 --disturl=https://atom.io/download/atom-shell --abi=83"
+  },
+  "repository": "https://github.com/binaryfunt/electron-seamless-titlebar-tutorial",
+  "author": "Master",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^14.0.1",
+    "electron-rebuild": "^3.2.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "custom-electron-titlebar": "^3.2.7",
+    "express": "^4.17.1",
+    "node-abi": "^3.0.0",
+    "robotjs": "^0.6.0",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0",
+    "update-electron-app": "^2.0.1"
+  }
+}
